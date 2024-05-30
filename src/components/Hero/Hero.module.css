@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 49px;
+    margin-top: 28px;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
@@ -20,7 +20,7 @@
 }
 
 .title{
-    font-size: 72px;
+    font-size: 64px;
     font-weight: 900;
     margin-bottom: 33px;
     font-family: var(--font-robot);
@@ -30,7 +30,7 @@
 }
 
 .description{
-    font-size: 30px;
+    font-size: 24px;
     font-family: var(--font-robot);
     margin-bottom: 42px;
 }
@@ -54,8 +54,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px;
-    width: 50%;
+    margin: 64px;
+    width: 30%;
     z-index: 1;
 
     animation-name: floating;
@@ -82,8 +82,8 @@
     height: 50vw;
     min-width: 350px;
     min-height: 350px;
-    top: -128px;
-    left: -10vw;
+    top: -20vw;
+    left: -20vw;
     border-radius: 764px;
     background: rgba(25, 55, 109, 0.7);
     filter: blur(100px);
