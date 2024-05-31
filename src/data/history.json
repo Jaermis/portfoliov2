@@ -1,18 +1,18 @@
 [
     {
-        "role": "Software Developer",
-        "organization": "TekNotes - CIT-U",
-        "startDate": "Sep 2023",
-        "endDate": "Jan 2024",
-        "experiences": ["Created UI Design on Figma", "Developed the app's frontend using Flutter", "Created a Pomodoro Timer Feature"],
-        "imageSrc": "history/cit.PNG"
-    },
-    {
-        "role": "Software Developer",
+        "role": "Frontend Developer",
         "organization": "MoneyGer - CIT-U",
         "startDate": "Feb 2024",
         "endDate": "May 2024",
         "experiences": ["Helped with the creation of UI in Figma", "Developed the app's frontend using Angular", "Utilized Lazy Loading for better performance"],
+        "imageSrc": "history/cit.PNG"
+    },
+    {
+        "role": "Mobile Developer",
+        "organization": "TekNotes - CIT-U",
+        "startDate": "Sep 2023",
+        "endDate": "Jan 2024",
+        "experiences": ["Created UI Design on Figma", "Developed the app's frontend using Flutter", "Created a Pomodoro Timer Feature"],
         "imageSrc": "history/cit.PNG"
     }
 ]
