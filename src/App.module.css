@@ -1,28 +1,27 @@
 @import "./vars.css";
 
-.App{
-    background-color: var(--color-bg);
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
+.App {
+  background-color: var(--color-bg);
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
-.progressBar{
-    height: 20px;
-    background-color: rgb(236, 20, 20);
-    overflow: hidden;
-    position: fixed;
-    transition: width 2s;
-    z-index: 3;
+.progressBar {
+  height: 20px;
+  background-color: rgb(236, 20, 20);
+  overflow: hidden;
+  position: fixed;
+  transition: width 2s;
+  z-index: 3;
 }
-
 
 .App #tsparticles {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    pointer-events: none; /* Ensure particles do not interfere with other elements */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none; /* Ensure particles do not interfere with other elements */
 }

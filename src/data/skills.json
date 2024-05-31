@@ -1,0 +1,98 @@
+[
+    {
+        "title": "JavaScript",
+        "imageSrc": "skills/JavaScript (1).svg"
+    },
+    {
+        "title": "Typescript",
+        "imageSrc": "skills/TypeScript (1).svg"
+    },
+    {
+        "title": "C/C++",
+        "imageSrc": "skills/C (1).svg"
+    },
+    {
+        "title": "C#",
+        "imageSrc": "skills/sisharp.svg"
+    },
+    {
+        "title": "Dart",
+        "imageSrc": "skills/Dart (1).svg"
+    },
+    {
+        "title": "Python",
+        "imageSrc": "skills/Python.svg"
+    },
+    {
+        "title": "React",
+        "imageSrc": "skills/React.svg"
+    },
+    {
+        "title": "Vite",
+        "imageSrc": "skills/Vite.svg"
+    },
+    {
+        "title": "Node.js",
+        "imageSrc": "skills/Node.svg"
+    },
+    {
+        "title": "Angular",
+        "imageSrc": "skills/Angular.svg"
+    },
+    {
+        "title": "Flutter",
+        "imageSrc": "skills/Flutter.svg"
+    },
+    {
+        "title": ".NET",
+        "imageSrc": "skills/NET.svg"
+    },
+    {
+        "title": "HTML",
+        "imageSrc": "skills/HTML5.svg"
+    },
+    {
+        "title": "CSS",
+        "imageSrc": "skills/CSS3.svg"
+    },
+    {
+        "title": "Access",
+        "imageSrc": "skills/access.png"
+    },
+    {
+        "title": "Firebase",
+        "imageSrc": "skills/Firebase.svg"
+    },
+    {
+        "title": "PostgreSQL",
+        "imageSrc": "skills/PostgresSQL.svg"
+    },
+    {
+        "title": "VSCode",
+        "imageSrc": "skills/VSCode.svg"
+    },
+    {
+        "title": "Visual Studio",
+        "imageSrc": "skills/Visual Studio.svg"
+    },
+    {
+        "title": "Arduino",
+        "imageSrc": "skills/Arduino.svg"
+    },
+    {
+        "title": "PyCharm",
+        "imageSrc": "skills/PyCharm.svg"
+    },
+    {
+        "title": "Git",
+        "imageSrc": "skills/Git.svg"
+    },
+    {
+        "title": "Figma",
+        "imageSrc": "skills/Figma.svg"
+    },
+    {
+        "title": "Photoshop",
+        "imageSrc": "skills/Adobe Photoshop.svg"
+    }
+]

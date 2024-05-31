@@ -1,6 +1,5 @@
-import React from "react";
 import { getImageUrl } from "../../utils";
-import styles from "./About.module.css"
+import styles from "./About.module.css";
 
 export const About = () => {
   return (
@@ -10,26 +9,39 @@ export const About = () => {
         {/*<img className={styles.aboutImg} src={getImageUrl("about/aboutImage.png")} alt="me sitting" />*/}
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img className={styles.aboutImage} src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <img
+              className={styles.aboutImage}
+              src={getImageUrl("about/cursorIcon.png")}
+              alt="Cursor icon"
+            />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                sites in Angular and React.
+                I&apos;m a frontend developer with experience in building
+                responsive sites in Angular and React.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img className={styles.aboutImage} src={getImageUrl("about/backendIcon.png")} alt="Cursor icon" />
+            <img
+              className={styles.aboutImage}
+              src={getImageUrl("about/backendIcon.png")}
+              alt="Cursor icon"
+            />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
-                I have a little experience with backend using Access and Firebase.
+                I have a little experience with backend using Access and
+                Firebase.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img className={styles.aboutImage} src={getImageUrl("about/uiIcon.png")} alt="Cursor icon" />
+            <img
+              className={styles.aboutImage}
+              src={getImageUrl("about/uiIcon.png")}
+              alt="Cursor icon"
+            />
             <div className={styles.aboutItemText}>
               <h3>UI/UX Designer</h3>
               <p>
