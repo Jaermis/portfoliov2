@@ -1,6 +1,8 @@
 import React from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./Hero.module.css";
+import { FaGithub, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
+import { BiLogoGmail } from "react-icons/bi";
 
 export const Hero = () => {
 
@@ -16,10 +18,27 @@ export const Hero = () => {
         </p>
         <a
           className={styles.contactBtn}
-          href="mailto:jermynejosh.kaquilala@gmail.com"
+          href="https://drive.usercontent.google.com/u/0/uc?id=1MlJN4xJloprqTS39MHdyshMEMHzoR8mL&export=download"
         >
-          Contact Me
+          Download CV
         </a>
+        <div className={styles.socials}>
+          <a href="https://github.com/Jaermis" target="_blank" className={styles.socialIcon} >
+            <FaGithub/>
+          </a>
+          <a href="https://www.linkedin.com/in/jermyne-josh-kaquilala-6a8716295/" target="_blank" className={styles.socialIcon}>
+            <FaLinkedin/>
+          </a>
+          <a href="https://www.facebook.com/boiwasabi" target="_blank" className={styles.socialIcon}>
+            <FaFacebook/>
+          </a>
+          <a href="https://www.instagram.com/josh.kakicks" target="_blank" className={styles.socialIcon}>
+            <FaInstagram/>
+          </a>
+          <a href="mailto:jermynejosh.kaquilala@gmail.com" className={styles.socialIcon}>
+            <BiLogoGmail/>
+          </a>
+        </div>
       </div>
       <img
         className={styles.heroImg}

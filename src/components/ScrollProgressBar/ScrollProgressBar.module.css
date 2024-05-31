@@ -1,0 +1,17 @@
+@import "../../App.module.css";
+
+.scrollContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: transparent;
+    z-index: 9999;
+}
+
+.scrollProgress{
+    height: 100%;
+    background-color: var(--color-primary);
+    transition: width 0.2s ease-in-out;
+}
