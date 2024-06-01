@@ -1,10 +1,11 @@
-:root{
-    --color-text: #fff;
-    --color-primary: #576cbc;
-    --color-primary-hover: #54639e;
-    --color-secondary: #19376d;
-    --color-dark: #0b2447;
-    --color-bg: #04152d;
+:root {
+  --color-text: #fff;
+  --color-primary: #576cbc;
+  --color-primary-hover: #54639e;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
+  --color-intro-bg: #181f29;
 
-    --font-robot: "Roboto";
+  --font-robot: "Roboto";
 }

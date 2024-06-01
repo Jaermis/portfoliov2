@@ -1,0 +1,73 @@
+@import "../../vars.css";
+
+.bg {
+  background-color: transparent;
+}
+
+.container {
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+  background-color: var(--color-intro-bg);
+  background: linear-gradient(
+    180deg,
+    var(--color-intro-bg) 20%,
+    var(--color-primary) 200%
+  );
+  animation-name: intro;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+}
+
+@keyframes intro {
+  0% {
+    width: 100vw;
+  }
+  100% {
+    width: 0vw;
+  }
+}
+
+.message-container {
+  height: 50px;
+  overflow: hidden;
+}
+
+.message {
+  display: block;
+  height: 50px; /* Adjust to match .message-container /
+  line-height: 50px; / Center text vertically */
+  transition: transform 1s ease-in-out;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+.title {
+  display: flex;
+  gap: 8px;
+  color: var(--color-text);
+
+  animation-name: fadeOut;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
