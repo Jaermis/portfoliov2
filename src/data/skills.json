@@ -1,98 +1,137 @@
 [
     {
         "title": "JavaScript",
-        "imageSrc": "skills/JavaScript (1).svg"
+        "imageSrc": "skills/JavaScript (1).svg",
+        "type": "language"
     },
     {
         "title": "Typescript",
-        "imageSrc": "skills/TypeScript (1).svg"
+        "imageSrc": "skills/TypeScript (1).svg",
+        "type": "language"
     },
     {
         "title": "C/C++",
-        "imageSrc": "skills/C (1).svg"
+        "imageSrc": "skills/C (1).svg",
+        "type": "language"
     },
     {
         "title": "C#",
-        "imageSrc": "skills/sisharp.svg"
+        "imageSrc": "skills/sisharp.svg",
+        "type": "language"
     },
     {
         "title": "Dart",
-        "imageSrc": "skills/Dart (1).svg"
+        "imageSrc": "skills/Dart (1).svg",
+        "type": "language"
     },
     {
         "title": "Python",
-        "imageSrc": "skills/Python.svg"
+        "imageSrc": "skills/Python.svg",
+        "type": "language"
+    },
+    {
+        "title": "Verilog",
+        "imageSrc": "",
+        "type": "language"
     },
     {
         "title": "React",
-        "imageSrc": "skills/React.svg"
+        "imageSrc": "skills/React.svg",
+        "type": "framework"
     },
     {
         "title": "Vite",
-        "imageSrc": "skills/Vite.svg"
+        "imageSrc": "skills/Vite.svg",
+        "type": "framework"
     },
     {
         "title": "Node.js",
-        "imageSrc": "skills/Node.svg"
+        "imageSrc": "skills/Node.svg",
+        "type": "framework"
     },
     {
         "title": "Angular",
-        "imageSrc": "skills/Angular.svg"
+        "imageSrc": "skills/Angular.svg",
+        "type": "framework"
     },
     {
         "title": "Flutter",
-        "imageSrc": "skills/Flutter.svg"
+        "imageSrc": "skills/Flutter.svg",
+        "type": "framework"
     },
     {
         "title": ".NET",
-        "imageSrc": "skills/NET.svg"
+        "imageSrc": "skills/NET.svg",
+        "type": "framework"
     },
     {
         "title": "HTML",
-        "imageSrc": "skills/HTML5.svg"
+        "imageSrc": "skills/HTML5.svg",
+        "type": "Web and Database"
     },
     {
         "title": "CSS",
-        "imageSrc": "skills/CSS3.svg"
+        "imageSrc": "skills/CSS3.svg",
+        "type": "Web and Database"
     },
     {
         "title": "Access",
-        "imageSrc": "skills/access.png"
+        "imageSrc": "skills/access.png",
+        "type": "Web and Database"
     },
     {
         "title": "Firebase",
-        "imageSrc": "skills/Firebase.svg"
+        "imageSrc": "skills/Firebase.svg",
+        "type": "Web and Database"
     },
     {
         "title": "PostgreSQL",
-        "imageSrc": "skills/PostgresSQL.svg"
+        "imageSrc": "skills/PostgresSQL.svg",
+        "type": "Web and Database"
     },
     {
         "title": "VSCode",
-        "imageSrc": "skills/VSCode.svg"
+        "imageSrc": "skills/VSCode.svg",
+        "type": "IDEs"
     },
     {
         "title": "Visual Studio",
-        "imageSrc": "skills/Visual Studio.svg"
+        "imageSrc": "skills/Visual Studio.svg",
+        "type": "IDEs"
     },
     {
         "title": "Arduino",
-        "imageSrc": "skills/Arduino.svg"
+        "imageSrc": "skills/Arduino.svg",
+        "type": "IDEs"
     },
     {
         "title": "PyCharm",
-        "imageSrc": "skills/PyCharm.svg"
+        "imageSrc": "skills/PyCharm.svg",
+        "type": "IDEs"
     },
     {
         "title": "Git",
-        "imageSrc": "skills/Git.svg"
+        "imageSrc": "skills/Git.svg",
+        "type": "Tools"
     },
     {
         "title": "Figma",
-        "imageSrc": "skills/Figma.svg"
+        "imageSrc": "skills/Figma.svg",
+        "type": "Tools"
     },
     {
         "title": "Photoshop",
-        "imageSrc": "skills/Adobe Photoshop.svg"
+        "imageSrc": "skills/Adobe Photoshop.svg",
+        "type": "Tools"
+    },
+    {
+        "title": "AfterEffects",
+        "imageSrc": "",
+        "type": "Tools"
+    },
+    {
+        "title": "Packet Tracer",
+        "imageSrc": "",
+        "type": "Tools"
     }
 ]
