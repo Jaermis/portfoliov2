@@ -10,6 +10,7 @@ function App() {
   return (
     <div className={styles.App}>
       <Greeting />
+      <div className={styles.grid} />
       <ScrollProgressBar />
       <Navbar />
       <Hero />

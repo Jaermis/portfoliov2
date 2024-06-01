@@ -2,6 +2,7 @@
 
 .bg {
   background-color: transparent;
+  overflow: hidden;
 }
 
 .container {
@@ -12,17 +13,17 @@
   justify-content: center;
   align-items: center;
   z-index: 999999;
-  background-color: var(--color-intro-bg);
-  background: linear-gradient(
+  background-color: var(--color-dark);
+  /*background: linear-gradient(
     180deg,
-    var(--color-intro-bg) 20%,
+    var(--color-dark) 60%,
     var(--color-primary) 200%
-  );
+  );*/
   animation-name: intro;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 5s;
+  animation-delay: 4s;
 }
 
 @keyframes intro {
@@ -60,12 +61,42 @@
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 4s;
+  animation-delay: 3s;
 }
 
 @keyframes fadeOut {
   0% {
     opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.searchIcon {
+  position: absolute;
+  color: white;
+  opacity: 0.4;
+  width: 50%;
+  right: 0;
+  bottom: 0;
+
+  animation: moveIcon 5s ease-in-out infinite,
+    fadeOut2 1s ease-in-out forwards 3s;
+}
+
+@keyframes moveIcon {
+  0% {
+    transform: rotate(360deg) translateX(100px) rotate(-360deg) rotate(0); /* Start at 0 degrees */
+  }
+  100% {
+    transform: rotate(0deg) translateX(100px) rotate(0deg) rotate(10deg); /* Rotate around the center */
+  }
+}
+
+@keyframes fadeOut2 {
+  0% {
+    opacity: 0.4;
   }
   100% {
     opacity: 0;

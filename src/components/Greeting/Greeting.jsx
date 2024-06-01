@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from "./Greeting.module.css";
 import intro from "../../data/intro.json";
+import { getImageUrl } from "../../utils";
 
 export const Greeting = () => {
   const [currentMessageIndex, setCurrentMessageIndex] = useState(0);
@@ -11,7 +12,7 @@ export const Greeting = () => {
 
     const timeout = setTimeout(() => {
       setIsScrollable(true);
-    }, 6100);
+    }, 5100);
 
     return () => clearTimeout(timeout);
   }, []);
@@ -25,7 +26,7 @@ export const Greeting = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentMessageIndex((prevIndex) => (prevIndex + 1) % intro.length);
-    }, 3000); // Change message every 3 seconds
+    }, 2000); // Change message every 3 seconds
 
     return () => clearInterval(interval);
   }, []);
@@ -33,6 +34,11 @@ export const Greeting = () => {
   return (
     <div className={styles.bg}>
       <div className={styles.container}>
+        <img
+          className={styles.searchIcon}
+          src={getImageUrl("intro/search.svg")}
+          alt="search icon"
+        />
         <h1 className={styles.title}>
           Looking for a{" "}
           <div className={styles["message-container"]}>
