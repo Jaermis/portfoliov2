@@ -1,0 +1,86 @@
+[
+    {
+        "title": "MoneyGer",
+        "imageSrc":"projects/moneyger.png",
+        "description": "CRM for small businesses to manage their clients and invoices.",
+        "tech": ["Angular", "Typescript", ".NET Core", "PostgreSQL"],
+        "github": "https://github.com/Jaermis/Moneyger"
+    },
+    {
+        "title": "KaiMono",
+        "imageSrc":"projects/kaimono.png",
+        "description": "A grocery guide list with budget integration",
+        "tech": ["C#", "Windows Forms", "Access"],
+        "github": "https://github.com/Jaermis/KaiMono"
+    },
+    {
+        "title": "WildMaps",
+        "imageSrc":"projects/wildmaps.png",
+        "description": "Prototype app for a campus navigation with AR features",
+        "tech": ["Figma"],
+        "github": "https://www.figma.com/proto/rWr2V0MKrPJYV8j4RMp6HO/WildMaps?node-id=3-18&starting-point-node-id=3%3A18"
+    },
+    {
+        "title": "La Acoustica",
+        "imageSrc":"projects/lakustika.png",
+        "description": "POS system for a music store",
+        "tech": ["C#", "Windows Forms", "Access"],
+        "github": "https://github.com/Jaermis/LaAcousticaMSAD"
+    },
+    {
+        "title": "TekNotes",
+        "imageSrc":"projects/teknotes.png",
+        "description": "Social media platform for sharing notes and resources",
+        "tech": ["Flutterflow", "Dart", "Firebase"],
+        "github": "https://github.com/Jaermis/TekNotes"
+    },
+    {
+        "title": "To do List Console",
+        "imageSrc":"projects/todo.png",
+        "description": "A to do list in console application",
+        "tech": ["C#"],
+        "github": "https://github.com/Jaermis/ConsoleToDoList"
+    },
+    {
+        "title": "PisoNetSim_Console",
+        "imageSrc":"projects/pisonet.png",
+        "description": "Console Simulator for PisoNet business",
+        "tech": ["C#"],
+        "github": "https://github.com/Jaermis/PisoNetSim_Console"
+    },
+    {
+        "title": "Banking Donuts",
+        "imageSrc":"projects/banking.png",
+        "description": "Console-based ATM simulator",
+        "tech": ["C"],
+        "github": "https://github.com/Jaermis/BankingDonuts"
+    },
+    {
+        "title": "POMOPOMO",
+        "imageSrc":"projects/pomopomo.png",
+        "description": "A Flutter Android Pomodoro Timer App",
+        "tech": ["Flutter", "Dart"],
+        "github": "https://github.com/Jaermis/POMOPOMO"
+    },
+    {
+        "title": "Sonata Player (WIP)",
+        "imageSrc":"projects/none.png",
+        "description": "My personal music player Android application",
+        "tech": ["Flutter", "Dart"],
+        "github": "https://github.com/Jaermis/sonata_player"
+    },
+    {
+        "title": "FireAlert",
+        "imageSrc": "projects/none.png",
+        "description": "A fire detection, alarm, and notification system",
+        "tech": ["Arduino", "C++"],
+        "github": "https://github.com/Jaermis/FireAlert"
+    },
+    {
+        "title": "Analog Traffic Light",
+        "imageSrc": "projects/none.png",
+        "description": "Analog traffic light system with a few modifications",
+        "tech": ["Arduino", "C++"],
+        "github": "https://github.com/Jaermis/Analog-Traffic-Light"
+    }
+]

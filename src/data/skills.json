@@ -2,112 +2,112 @@
     {
         "title": "JavaScript",
         "imageSrc": "skills/JavaScript (1).svg",
-        "type": "language"
+        "type": "Language"
     },
     {
         "title": "Typescript",
         "imageSrc": "skills/TypeScript (1).svg",
-        "type": "language"
+        "type": "Language"
     },
     {
         "title": "C/C++",
         "imageSrc": "skills/C (1).svg",
-        "type": "language"
+        "type": "Language"
     },
     {
         "title": "C#",
         "imageSrc": "skills/sisharp.svg",
-        "type": "language"
+        "type": "Language"
     },
     {
         "title": "Dart",
         "imageSrc": "skills/Dart (1).svg",
-        "type": "language"
+        "type": "Language"
     },
     {
         "title": "Python",
         "imageSrc": "skills/Python.svg",
-        "type": "language"
+        "type": "Language"
     },
     {
         "title": "Verilog",
-        "imageSrc": "",
-        "type": "language"
+        "imageSrc": "skills/verilog.svg",
+        "type": "Language"
     },
     {
         "title": "React",
         "imageSrc": "skills/React.svg",
-        "type": "framework"
+        "type": "Framework"
     },
     {
         "title": "Vite",
         "imageSrc": "skills/Vite.svg",
-        "type": "framework"
+        "type": "Framework"
     },
     {
         "title": "Node.js",
         "imageSrc": "skills/Node.svg",
-        "type": "framework"
+        "type": "Framework"
     },
     {
         "title": "Angular",
         "imageSrc": "skills/Angular.svg",
-        "type": "framework"
+        "type": "Framework"
     },
     {
         "title": "Flutter",
         "imageSrc": "skills/Flutter.svg",
-        "type": "framework"
+        "type": "Framework"
     },
     {
         "title": ".NET",
         "imageSrc": "skills/NET.svg",
-        "type": "framework"
+        "type": "Framework"
     },
     {
         "title": "HTML",
         "imageSrc": "skills/HTML5.svg",
-        "type": "Web and Database"
+        "type": "Web & Database"
     },
     {
         "title": "CSS",
         "imageSrc": "skills/CSS3.svg",
-        "type": "Web and Database"
+        "type": "Web & Database"
     },
     {
         "title": "Access",
         "imageSrc": "skills/access.png",
-        "type": "Web and Database"
+        "type": "Web & Database"
     },
     {
         "title": "Firebase",
         "imageSrc": "skills/Firebase.svg",
-        "type": "Web and Database"
+        "type": "Web & Database"
     },
     {
         "title": "PostgreSQL",
         "imageSrc": "skills/PostgresSQL.svg",
-        "type": "Web and Database"
+        "type": "Web & Database"
     },
     {
         "title": "VSCode",
         "imageSrc": "skills/VSCode.svg",
-        "type": "IDEs"
+        "type": "IDE"
     },
     {
         "title": "Visual Studio",
         "imageSrc": "skills/Visual Studio.svg",
-        "type": "IDEs"
+        "type": "IDE"
     },
     {
         "title": "Arduino",
         "imageSrc": "skills/Arduino.svg",
-        "type": "IDEs"
+        "type": "IDE"
     },
     {
         "title": "PyCharm",
         "imageSrc": "skills/PyCharm.svg",
-        "type": "IDEs"
+        "type": "IDE"
     },
     {
         "title": "Git",
@@ -121,17 +121,17 @@
     },
     {
         "title": "Photoshop",
-        "imageSrc": "skills/Adobe Photoshop.svg",
+        "imageSrc": "skills/ps.svg",
         "type": "Tools"
     },
     {
         "title": "AfterEffects",
-        "imageSrc": "",
+        "imageSrc": "skills/ae.svg",
         "type": "Tools"
     },
     {
         "title": "Packet Tracer",
-        "imageSrc": "",
+        "imageSrc": "skills/pkt.svg",
         "type": "Tools"
     }
 ]

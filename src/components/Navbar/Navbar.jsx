@@ -7,7 +7,7 @@ export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <Fade direction="down" triggerOnce>
+    <Fade direction="down" triggerOnce delay={5200}>
       <nav className={styles.navbar}>
         <a className={styles.title} href="/">
           Josh

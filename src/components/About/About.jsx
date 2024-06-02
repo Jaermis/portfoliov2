@@ -9,7 +9,7 @@ export const About = () => {
         <h2 className={styles.title}>About</h2>
         <div className={styles.content}>
           {/*<img className={styles.aboutImg} src={getImageUrl("about/aboutImage.png")} alt="me sitting" />*/}
-          <Fade cascade delay={1000} damping={0.2} triggerOnce>
+          <Fade cascade damping={0.2} direction="right">
             <ul className={styles.aboutItems}>
               <li className={styles.aboutItem}>
                 <img

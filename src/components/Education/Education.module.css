@@ -1,0 +1,81 @@
+@import "../../vars.css";
+
+.container {
+  padding: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: var(--color-text);
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.tableCont {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 0;
+}
+
+th {
+  background-color: var(--color-primary);
+}
+
+td {
+  background-color: #2f345f53;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: var(--color-primary);
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  color: var(--color-text);
+}
+
+.pagination span {
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .pagination button {
+    font-size: 12px;
+  }
+}

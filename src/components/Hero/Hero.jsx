@@ -19,11 +19,11 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <Fade delay={initialLoad ? 5200 : 0} direction="down" triggerOnce>
+        <Fade delay={initialLoad ? 5200 : 0} direction="down">
           <h1 className={styles.title}>Ahoy There! I&apos;m Josh</h1>
         </Fade>
 
-        <Fade delay={initialLoad ? 5200 : 0} direction="up" triggerOnce>
+        <Fade delay={initialLoad ? 5200 : 0} direction="up">
           <p className={styles.description}>
             I&apos;m a BS in Computer Engineering student at Cebu Institute of
             Technology - University. I am a frontend developer using Angular and
@@ -33,7 +33,7 @@ export const Hero = () => {
           </p>
         </Fade>
 
-        <Fade delay={initialLoad ? 5200 : 0} direction="up" triggerOnce>
+        <Fade delay={initialLoad ? 5200 : 0} direction="up">
           <a
             className={styles.contactBtn}
             href="https://drive.usercontent.google.com/u/0/uc?id=1MlJN4xJloprqTS39MHdyshMEMHzoR8mL&export=download"
@@ -42,7 +42,7 @@ export const Hero = () => {
           </a>
         </Fade>
 
-        <Fade delay={initialLoad ? 5200 : 0} direction="up" triggerOnce>
+        <Fade delay={initialLoad ? 5200 : 0} direction="up">
           <div className={styles.socials}>
             <a
               href="https://github.com/Jaermis"
@@ -82,7 +82,11 @@ export const Hero = () => {
         </Fade>
       </div>
 
-      <Fade delay={initialLoad ? 5200 : 0} triggerOnce duration={2500}>
+      <Fade
+        delay={initialLoad ? 5200 : 0}
+        duration={2500}
+        className={styles.heroImg}
+      >
         <img
           className={styles.heroImg}
           src={getImageUrl("hero/heroImage.png")}

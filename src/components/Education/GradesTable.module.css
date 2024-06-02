@@ -1,0 +1,39 @@
+@import "../../vars.css";
+
+.bottomInfo {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+table {
+  font-size: 18px;
+}
+
+table th:first-child {
+  border-top-left-radius: 10px;
+}
+
+table th:last-child {
+  border-top-right-radius: 10px;
+}
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  table {
+    font-size: 12px;
+  }
+
+  .bottomInfo {
+    font-size: 14px;
+  }
+}

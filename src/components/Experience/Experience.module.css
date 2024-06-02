@@ -22,48 +22,77 @@
   justify-content: space-evenly;
   margin-top: 14px;
 }
-
-.skills {
-  width: 45%;
-  overflow-y: scroll;
-  height: 550px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 37px;
-  margin-top: 20px;
-}
-
-.skill {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 11px;
-
-  p {
-    font-size: 16px;
-    font-family: var(--font-robot);
-    font-weight: 500;
-  }
-}
-
 .skillImageContainer {
   background-color: var(--color-secondary);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
   padding: 10px;
 
-  img {
-    width: 55px;
+  &:hover {
+    cursor: pointer;
   }
+
+  img {
+    width: 45px;
+  }
+}
+
+.skillsCont {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tabContainer {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  border-bottom: solid 2px #19376d;
+}
+
+.skills {
+  width: 100%;
+  overflow-y: scroll;
+  min-height: 0;
+  max-height: 470px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 37px;
+  margin-top: 20px;
+}
+
+.tab {
+  width: 16%;
+  height: 40px;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--color-text);
+  border: none;
+  border-radius: 5px 5px 0 0;
+  transition: background-color 0.3s ease;
+  font-style: var(--font-robot);
+}
+
+.activeTab {
+  width: 16%;
+  height: 40px;
+  cursor: pointer;
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+  border: none;
+  border-radius: 5px 5px 0 0;
+  transition: background-color 0.3s ease;
+  font-style: var(--font-robot);
 }
 
 .history {
   width: 45%;
   overflow-y: scroll;
+  overflow-x: hidden;
   height: 550px;
   display: flex;
   flex-direction: column;
@@ -108,7 +137,7 @@
   margin-left: 17px;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1200px) {
   .content {
     flex-direction: column;
     align-items: center;
@@ -123,6 +152,10 @@
     justify-content: center;
   }
 
+  .skillsCont {
+    width: 100%;
+  }
+
   .history {
     overflow-y: auto;
     height: 100%;
@@ -130,13 +163,24 @@
     gap: 9px;
   }
 
+  .tabContainer {
+    width: auto;
+    justify-content: center;
+    overflow-x: auto;
+  }
+
+  .tab,
+  .activeTab {
+    font-size: 8px;
+  }
+
   .skillImageContainer {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     padding: 10px;
 
     img {
-      width: 45px;
+      width: 25px;
     }
   }
 

@@ -1,0 +1,348 @@
+[
+    {
+        "semester": "First Semester 2021-2022 (Core Subjects Only)",
+        "subjects": [
+            {
+                "subjectCode": "CHEM 131",
+                "subjectName": "Chemistry for Engineers (Lec)",
+                "units": "3",
+                "grade": "4.1"
+            },
+            {
+                "subjectCode": "CHEM 181",
+                "subjectName": "Chemistry for Engineers (Lab)",
+                "units": "1",
+                "grade": "4.4"
+            },
+            {
+                "subjectCode": "CPE 131",
+                "subjectName": "Computer Engineering as a Discipline",
+                "units": "1",
+                "grade": "4.8"
+            },
+            {
+                "subjectCode": "CPE 161",
+                "subjectName": "Programming Logic and Design 1",
+                "units": "3",
+                "grade": "4.6"
+            },
+            {
+                "subjectCode": "MATH 137",
+                "subjectName": "Engineering Calculus 1",
+                "units": "3",
+                "grade": "4.7"
+            }
+        ],
+        "totalUnits": "11",
+        "gwa": "4.5"
+    },
+    {
+        "semester": "Second Semester 2021-2022 (Core Subjects Only)",
+        "subjects": [
+            {
+                "subjectCode": "CPE 132",
+                "subjectName": "Discrete Mathematics",
+                "units": "3",
+                "grade": "4.2"
+            },
+            {
+                "subjectCode": "CPE 162",
+                "subjectName": "Programming Logic and Design 2",
+                "units": "3",
+                "grade": "4.7"
+            },
+            {
+                "subjectCode": "MATH 138",
+                "subjectName": "Engineering Calculus 2",
+                "units": "3",
+                "grade": "4.8"
+            },
+            {
+                "subjectCode": "PHYS 132",
+                "subjectName": "Physics for Engineers (lec)",
+                "units": "3",
+                "grade": "4.4"
+            },
+            {
+                "subjectCode": "PHYS 182",
+                "subjectName": "Physics for Engineers (lab)",
+                "units": "1",
+                "grade": "4.9"
+            }
+        ],
+        "totalUnits": "13",
+        "gwa": "4.6"
+    },
+    {
+        "semester": "First Semester 2022-2023 (Core Subjects Only)",
+        "subjects": [
+            {
+                "subjectCode": "CPE 261",
+                "subjectName": "Object Oriented Programming 1 for CPE",
+                "units": "3",
+                "grade": "4.7"
+            },
+            {
+                "subjectCode": "EE 231A",
+                "subjectName": "Fundamentals of Electrical Circuits (lec)",
+                "units": "3",
+                "grade": "3.9"
+            },
+            {
+                "subjectCode": "EE 281A",
+                "subjectName": "Fundamentals of Electrical Circuits (lab)",
+                "units": "1",
+                "grade": "4.7"
+            },
+            {
+                "subjectCode": "ES 038",
+                "subjectName": "Computer Aided Design and Drafting",
+                "units": "1",
+                "grade": "5.0"
+            },
+            {
+                "subjectCode": "MATH 237",
+                "subjectName": "Differential Equations",
+                "units": "3",
+                "grade": "3.9"
+            }
+        ],
+        "totalUnits": "11",
+        "gwa": "4.4"
+    },
+    {
+        "semester": "Second Semester 2022-2023 (Core Subjects Only)",
+        "subjects": [
+            {
+                "subjectCode": "CPE 232",
+                "subjectName": "Numerical Methods",
+                "units": "3",
+                "grade": "4.7"
+            },
+            {
+                "subjectCode": "CPE 234",
+                "subjectName": "Advanced Engineering Mathematics for CPE",
+                "units": "3",
+                "grade": "4.6"
+            },
+            {
+                "subjectCode": "CPE 262",
+                "subjectName": "Object Oriented Programming 2 for CPE",
+                "units": "2",
+                "grade": "4.7"
+            },
+            {
+                "subjectCode": "CPE 264",
+                "subjectName": "Data Structures and Algorithms for CPE",
+                "units": "4",
+                "grade": "4.0"
+            },
+            {
+                "subjectCode": "ECE 204",
+                "subjectName": "Fundamentals of Electronic Circuits/Basic Electronics (lab)",
+                "units": "1",
+                "grade": "4.4"
+            },
+            {
+                "subjectCode": "ECE 254",
+                "subjectName": "Fundamentals of Electronic Circuits/Basic Electronics (lec)",
+                "units": "3",
+                "grade": "4.3"
+            }
+        ],
+        "totalUnits": "16",
+        "gwa": "4.4"
+    },
+    {
+        "semester": "Summer Term 2023-2024 (Core Subjects Only)",
+        "subjects": [
+            {
+                "subjectCode": "CPE 330",
+                "subjectName": "Operating Systems for CPE",
+                "units": "3",
+                "grade": "4.5"
+            },
+            {
+                "subjectCode": "CPE 340",
+                "subjectName": "Modern System Analysis and Design",
+                "units": "3",
+                "grade": "4.8"
+            }
+        ],
+        "totalUnits": "6",
+        "gwa": "4.7"
+    },
+    {
+        "semester": "First Semester 2023-2024 (Core Subjects Only)",
+        "subjects": [
+            {
+                "subjectCode": "CPE 331",
+                "subjectName": "Data and Digital Communications",
+                "units": "3",
+                "grade": "4.9"
+            },
+            {
+                "subjectCode": "CPE 335",
+                "subjectName": "Feedback and Control Systems",
+                "units": "3",
+                "grade": "4.6"
+            },
+            {
+                "subjectCode": "CPE 361",
+                "subjectName": "Logic Circuits and DeSign",
+                "units": "4",
+                "grade": "4.4"
+            },
+            {
+                "subjectCode": "CPE 363",
+                "subjectName": "Software Design",
+                "units": "4",
+                "grade": "4.7"
+            },
+            {
+                "subjectCode": "CPE 381",
+                "subjectName": "Computer Engineering Drafting and Design",
+                "units": "1",
+                "grade": "4.8"
+            },
+            {
+                "subjectCode": "CPEPE 361/SD",
+                "subjectName": "Software Development 1",
+                "units": "3",
+                "grade": "4.1"
+            }
+        ],
+        "totalUnits": "18",
+        "gwa": "4.6"
+    },
+    {
+        "semester": "Second Semester 2023-2024 (Core Subjects Only)",
+        "subjects": [
+            {
+                "subjectCode": "CPE 334",
+                "subjectName": "Methods of Research",
+                "units": "3",
+                "grade": "INC"
+            },
+            {
+                "subjectCode": "CPE 336",
+                "subjectName": "CPE Laws and Professional Practice",
+                "units": "2",
+                "grade": "INC"
+            },
+            {
+                "subjectCode": "CPE 364",
+                "subjectName": "Computer Networks and Security",
+                "units": "4",
+                "grade": "INC"
+            },
+            {
+                "subjectCode": "CPE 366",
+                "subjectName": "Microprocessors",
+                "units": "4",
+                "grade": "INC"
+            },
+            {
+                "subjectCode": "CPE 368",
+                "subjectName": "Fundamentals of Mixed Signals and Sensors",
+                "units": "4",
+                "grade": "4.6"
+            },
+            {
+                "subjectCode": "CPEPE 382",
+                "subjectName": "Introduction to HDL",
+                "units": "1",
+                "grade": "INC"
+            },
+            {
+                "subjectCode": "CPEPE 362/SD",
+                "subjectName": "Software Development 2",
+                "units": "3",
+                "grade": "INC"
+            }
+        ],
+        "totalUnits": "21",
+        "gwa": "INC"
+    },
+    {
+        "semester": "Summer Term 2023-2024 (Core Subjects Only)",
+        "subjects": [
+            {
+                "subjectCode": "CPE 460",
+                "subjectName": "On the Job Training",
+                "units": "6",
+                "grade": "INC"
+            }
+        ],
+        "totalUnits": "6",
+        "gwa": "INC"
+    },
+    {
+        "semester": "First Semester 2024-2025 (Core Subjects Only)",
+        "subjects": [
+            {
+                "subjectCode": "CPE 463",
+                "subjectName": "Computer Architecture and Organization",
+                "units": "4",
+                "grade": "INC"
+            },
+            {
+                "subjectCode": "CPE CC481",
+                "subjectName": "CPE Comprehensive Evaluation Course 1",
+                "units": "1",
+                "grade": "INC"
+            },
+            {
+                "subjectCode": "CPE 481",
+                "subjectName": "CPE Practice and Design 1",
+                "units": "2",
+                "grade": "INC"
+            },
+            {
+                "subjectCode": "CPE 465",
+                "subjectName": "Digital Signal Processing",
+                "units": "4",
+                "grade": "INC"
+            },
+            {
+                "subjectCode": "CPE 461",
+                "subjectName": "Embedded Systems",
+                "units": "4",
+                "grade": "INC"
+            },
+            {
+                "subjectCode": "CPEPE 463/SD",
+                "subjectName": "Software Development 3",
+                "units": "3",
+                "grade": "INC"
+            }
+        ],
+        "totalUnits": "18",
+        "gwa": "INC"
+    },
+    {
+        "semester": "Second Semester 2024-2025 (Core Subjects Only)",
+        "subjects": [
+            {
+                "subjectCode": "CPE 462",
+                "subjectName": "CPE Practice and Design 2",
+                "units": "4",
+                "grade": "INC"
+            },
+            {
+                "subjectCode": "CPE 432",
+                "subjectName": "Emerging Technologies in CPE",
+                "units": "3",
+                "grade": "INC"
+            },
+            {
+                "subjectCode": "CPE 482",
+                "subjectName": "Seminars and Field Trips",
+                "units": "1",
+                "grade": "INC"
+            }
+        ],
+        "totalUnits": "8",
+        "gwa": "INC"
+    }
+]
