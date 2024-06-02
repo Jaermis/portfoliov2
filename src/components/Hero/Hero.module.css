@@ -62,7 +62,8 @@
   align-items: center;
   margin: 64px;
   width: 30%;
-  z-index: 1;
+  min-width: 350px;
+  z-index: 9999;
 
   animation-name: floating;
   animation-duration: 3s;
@@ -97,7 +98,7 @@
   border-radius: 764px;
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
-  z-index: 0;
+  z-index: -900;
   animation: blur-size 5s infinite ease-in-out, blur-intro 3s ease-in-out 3s;
 }
 
@@ -112,7 +113,7 @@
   border-radius: 764px;
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
-  z-index: 0;
+  z-index: -2;
   animation: blur-size-bottom 5s infinite ease-in-out,
     blur-intro-bottom 3s ease-in-out 3s;
 }
@@ -193,7 +194,8 @@
   }
 
   .heroImg {
-    width: 50%;
+    width: 30%;
+    min-width: 200px;
   }
 
   .content {
