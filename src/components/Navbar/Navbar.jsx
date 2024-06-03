@@ -1,13 +1,22 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 import { Fade } from "react-awesome-reveal";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [initialLoad, setInitialLoad] = useState(true);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setInitialLoad(false);
+    }, 7000);
+
+    return () => clearTimeout(timeout);
+  }, []);
 
   return (
-    <Fade direction="down" triggerOnce delay={5200}>
+    <Fade direction="down" triggerOnce delay={initialLoad ? 5200 : 0}>
       <nav className={styles.navbar}>
         <a className={styles.title} href="/">
           Josh
