@@ -18,7 +18,7 @@ export const ProjectCard = ({
         ))}
       </ul>
       <div className={styles.links}>
-        <a href={github} className={styles.link}>
+        <a href={github} className={styles.link} target="_blank">
           Source
         </a>
       </div>

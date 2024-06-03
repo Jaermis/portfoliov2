@@ -24,7 +24,7 @@ export const Experience = () => {
 
       <div className={styles.content}>
         <div className={styles.skillsCont}>
-          <Fade duration={2000}>
+          <Fade duration={2000} triggerOnce>
             <div className={styles.tabContainer}>
               {skillTypes.map((type) => (
                 <button
@@ -42,7 +42,7 @@ export const Experience = () => {
 
           <Tooltip id="skillTooltip" />
           <Fade key={selectedTab} triggerOnce duration={300}>
-            <Fade duration={2000}>
+            <Fade duration={2000} triggerOnce>
               <div className={styles.skills}>
                 {filteredSkills.map((skill, id) => (
                   <div key={id} className={styles.skill}>
@@ -63,7 +63,7 @@ export const Experience = () => {
           </Fade>
         </div>
 
-        <Fade cascade damping={0.2} direction="right">
+        <Fade cascade damping={0.2} direction="right" triggerOnce>
           <ul className={styles.history}>
             {history.map((historyItem, id) => (
               <li key={id} className={styles.historyItem}>

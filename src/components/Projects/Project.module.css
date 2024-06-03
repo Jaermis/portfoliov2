@@ -5,6 +5,7 @@
   margin-right: 10%;
   margin-top: 76px;
   color: var(--color-text);
+  margin-bottom: 50px;
 }
 
 .title {
@@ -14,13 +15,14 @@
   text-transform: uppercase;
 }
 
-.projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
+.swiperContainer {
   width: 100%;
+}
+
+.projectColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10%;
+  margin-left: 10%;
 }

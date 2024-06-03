@@ -19,7 +19,7 @@ export const Education = () => {
     <section className={styles.container} id="education">
       <h2 className={styles.title}>Education</h2>
       <div className={styles.content}>
-        <Fade direction="right">
+        <Fade direction="right" triggerOnce>
           <div className={styles.tableCont}>
             <GradesTable semesterData={gradesData[pageIndex]} />
             <div className={styles.pagination}>

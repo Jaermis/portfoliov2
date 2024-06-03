@@ -6,14 +6,13 @@ import { ScrollProgressBar } from "./components/ScrollProgressBar/ScrollProgress
 import { Experience } from "./components/Experience/Experience";
 import { Greeting } from "./components/Greeting/Greeting";
 import { Education } from "./components/Education/Education";
-import { Mail } from "./components/Mail/Mail";
 import { Project } from "./components/Projects/Project";
+import { Contact } from "./components/Contact/Contact";
 
 function App() {
   return (
     <div className={styles.App}>
       <Greeting />
-      <Mail />
       <div className={styles.grid} />
       <ScrollProgressBar />
       <Navbar />
@@ -22,6 +21,7 @@ function App() {
       <Experience />
       <Education />
       <Project />
+      <Contact />
     </div>
   );
 }

@@ -7,11 +7,13 @@
   background: linear-gradient(180deg, #19376d 0%, rgba(25, 55, 109, 0.42) 100%);
   padding: 18px 24px;
   max-width: 345px;
+  height: 470px;
+  margin-bottom: 20px;
 }
 
 .image {
   margin-bottom: 26px;
-  width: 300px;
+  width: 100%;
 }
 
 .title {
@@ -48,6 +50,7 @@
   margin-top: 26px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .link {
@@ -58,4 +61,17 @@
   border-radius: 100px;
   background: var(--color-primary);
   padding: 2px 12px;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    margin-top: 10%;
+    width: 300px;
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
+    width: 99%;
+  }
 }
